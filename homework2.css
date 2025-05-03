@@ -1,0 +1,108 @@
+#k1 {
+    background-color: azure;
+    border: 2px solid #000;
+    gap: 50px;
+
+}
+
+a:hover {
+    background-color: black;
+}
+
+#k2 {
+    height: 500px;
+    width: 300px;
+    background-color: rgb(167, 240, 235);
+}
+
+.h2 {
+    height: 100vh;
+    width: 100px;
+    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    border: 2px solid #000;
+
+
+
+
+
+}
+
+.a1 {
+    height: 90px;
+    width: 160px;
+    background-color: rgb(222, 237, 237);
+    border: 2px solid #000;
+
+}
+
+.a2 {
+    height: 90px;
+    width: 160px;
+    background-color: rgb(222, 237, 237);
+    border: 2px solid #000;
+
+}
+
+.a3 {
+    height: 90px;
+    width: 160px;
+    background-color: rgb(222, 237, 237);
+    border: 2px solid #000;
+
+
+
+}
+
+#j1 {
+    background-color: lightskyblue;
+    height: 500px;
+    width: 1150px;
+    margin-left: 315px;
+    margin-top: -496px;
+    border: 2px solid #000;
+
+}
+
+#f4 {
+    height: 60px;
+    width: 1460px;
+    background-color: rgb(167, 240, 235);
+    margin-left: -317px;
+    margin-top: 20px;
+    border: 2px solid #000;
+
+
+}
+
+@media screen and (max-width:600px) {
+    .h2 {
+        background-color: red;
+        height: 100px;
+        width: 60px;
+        flex-direction: column;
+
+    }
+
+}
+
+@media screen and (max-width:300px) {
+    #k1 {
+        background-color: blue;
+    }
+
+}
+@media screen and (max-width:700px) {
+    #j1{
+        
+        height: 300px;
+        width: 300px;
+        flex-direction: row;
+    }
+
+}
